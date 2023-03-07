@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe - In a Box</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cf59577066.js" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- nav bar -->
+
+  <nav style=" box-shadow: 0 4px 8px 0 rgba(105, 105, 105, 0.2), 0 6px 20px 0 rgba(116, 116, 116, 0.19);" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html">In a Box</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Recipe.html">Recipe <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item  dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Products and services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Ingredients.html">Ingredients</a>
+            <a class="dropdown-item" href="Baked at Home Set.html">Baked at Home Set</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="Meal Planners.html">Meal Planners</a>
+            <a class="dropdown-item" href="Nutritional Information Apps.html">Nutritional Information Apps</a>
+            <a class="dropdown-item" href="Weekly Recipe Choices.html">Weekly Recipe Choices</a>
+            <a class="dropdown-item" href="Gift Boxes.html">Gift Boxes</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Packages.html">Packages</a>
+        </li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item ">
+          <a class="nav-link navbar-primary bg-light" href="Log in.html">Log in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-primary bg-light" href="Sign up.html">Sign up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- nav bar -->
+  <br>
+  <br><br>
+  <div class="header text-center">
+    <h1>Recipe</h1>
+  </div>
+  
+  <br>
+  <!-- card -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img 
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/chorizo-chili-w09-41c1cff5.jpg"
+            class="card-img-top" alt="...">
+            
+          <div class="card-body">
+            <h5 class="card-title">Chorizo Chili</h5>
+            <p class="card-text" style="min-height: 50px;">with Shredded Cheese & Scallion Sour Cream</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="detail1.html" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd40572cf77635ea0d201b-1c1b614c.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> Parmesan Chicken</h5>
+            <p class="card-text" style="min-height: 50px;">with  Broccoli & Tomatoes</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="detail2.html" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd59c0084cd783460bfa92-98b6a896.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tomato Chicken</h5>
+            <p class="card-text" style="min-height: 50px;">with Zucchini Noodles</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="detail3.html" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd5a6851e250bef3037d6f-00e1000c.jpg"
+            class="card-img-top" alt="Cheesy Bacon">
+          <div class="card-body">
+            <h5 class="card-title">Cheesy Bacon</h5>
+            <p class="card-text" style="min-height: 50px;">with Portobellos & Garlic Broccoli</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd65a2af5f17dc450c1d9a-25c46b02.jpg"
+            class="card-img-top" alt="Chicken Piccata">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Piccata</h5>
+            <p class="card-text" style="min-height: 50px;">with Cauliflower Mash & Broccoli</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd6c14af5f17dc450c1d9c-9f8f34cc.jpg"
+            class="card-img-top" alt="Popper Burger">
+          <div class="card-body">
+            <h5 class="card-title">Popper Burger</h5>
+            <p class="card-text" style="min-height: 50px;">with Cauliflower "Popper" Rice</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd6ce61379c272d003741f-14b0baa5.jpg"
+            class="card-img-top" alt="Pork Chop">
+          <div class="card-body">
+            <h5 class="card-title">Pork Chop</h5>
+            <p class="card-text" style="min-height: 50px;">with Cauliflower Mash & Garlic Haricots Verts</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd6ee5b64ac83b45044086-46702ab7.jpg"
+            class="card-img-top" alt="Pork Tenderloin">
+          <div class="card-body">
+            <h5 class="card-title">Pork Tenderloin</h5>
+            <p class="card-text" style="min-height: 50px;">A short description of the menu item goes here.</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/cheesy-ground-beef-cabbage-w10-02ba492d.jpg"
+            class="card-img-top" alt="Beef & Cabbage">
+          <div class="card-body">
+            <h5 class="card-title">Beef & Cabbage</h5>
+            <p class="card-text" style="min-height: 50px;">with Chile Garlic Green Beans & Red Bell Peppers</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63d182294bde94793001228f-2736a83d.jpg"
+            class="card-img-top" alt="Cheddar Chicken">
+          <div class="card-body">
+            <h5 class="card-title">Cheddar Chicken</h5>
+            <p class="card-text" style="min-height: 50px;">with Spicy Cilantro Cauliflower "Rice"</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd7093e811c94f580fe8c9-9c034618.jpg"
+            class="card-img-top" alt="Parmesan Chicken">
+          <div class="card-body">
+            <h5 class="card-title">Parmesan Chicken</h5>
+            <p class="card-text" style="min-height: 50px;">with Olive Chimichurri Cauliflower</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd71ef51e250bef3037d89-e40c9f9c.jpg"
+            class="card-img-top" alt="Louisiana Shrimp">
+          <div class="card-body">
+            <h5 class="card-title">Louisiana Shrimp</h5>
+            <p class="card-text" style="min-height: 50px;">with Smoked Gouda Cauliflower "Grits"</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63dd7352588dccaea50932bf-c7176d1e.jpg"
+            class="card-img-top" alt="Shredded Chicken">
+          <div class="card-body">
+            <h5 class="card-title">Shredded Chicken</h5>
+            <p class="card-text" style="min-height: 50px;">with Roasted Corn Salsa & Cilantro Lime Sour Cream</p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63e121610a1f875cd806f1f5-c926e6e3.jpg"
+            class="card-img-top" alt="Pork Sloppy">
+          <div class="card-body">
+            <h5 class="card-title">Pork Sloppy</h5>
+            <p class="card-text" style="min-height: 50px;">with Chipotle Sweet Potato Mash </p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div><div class="col-sm-6 col-md-4">
+        <div class="card">
+          <img
+            src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_525/everyplate_s3/image/63e17d4e7ad1c0ac0202a39c-b2c61894.jpg"
+            class="card-img-top" alt="Orange Pancakes">
+          <div class="card-body">
+            <h5 class="card-title">Orange Pancakes</h5>
+            <p class="card-text" style="min-height: 50px;">with Cranberry Sauce, Honey Butter & Chicken Sausage
+
+            </p>
+            <button type="button" class="btn btn-primary buybutton" data-toggle="modal" data-target="#exampleModal"  style="width: 100%;">
+              Order Now
+            </button>
+            <a href="#" class="btn btn-primary buybutton" style="width: 100%;">View Detail</a>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+
+
+  <!-- card -->
+
+ <!-- footer -->
+ <footer class="bg-dark text-white pt-4 pb-4">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-3" style="margin-bottom: 10px;">In a Box | All Rights Reserve</div>
+      <div class="col-sm-3" style="margin-bottom: 10px;"><a class="hlink" href="Contact us.html">Contact us</a></div>
+      <div class="col-sm-3" style="margin-bottom: 10px;"><a class="hlink" href="About us.html">About us</a></div>
+      <div class="col-sm-3">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"
+            style="font-size: x-large; padding-right: 10%; color:white;"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="font-size: x-large;padding-right: 10%;color:white"></i></a>
+        <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest"
+            style="font-size: x-large;padding-right: 0%;color:white"></i></a>
+      </div>
+    </div>
+</footer>
+
+<!-- footer -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-header" style="margin: auto;">
+        <h4 class="modal-title" id="exampleModalLabel">Log in</h4>
+        
+        </button>
+      </div>
+      <form style="padding: 7%;">
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form2Example1" class="form-control" placeholder="Email address"/>
+          
+        </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="password" id="form2Example2" class="form-control" placeholder="Password" />
+          
+        </div>
+      
+        <!-- 2 column grid layout for inline styling -->
+        <div class="row mb-4">
+          <div class="col d-flex justify-content-center">
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+              <label class="form-check-label" for="form2Example31"> Remember me </label>
+            </div>
+          </div>
+      
+          <div class="col">
+            <!-- Simple link -->
+            <a href="#!">Forgot password?</a>
+          </div>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          <p>Not a member? <a href="Sign up.html">Sign up</a></p>
+          <p>or sign up with:</p>
+          <a href="https://www.facebook.com/" style="font-size: x-large; margin-right: 10%; color:rgb(0, 0, 0);"><i class="fa-brands fa-facebook"
+            ></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="font-size: x-large;padding-right: 0%;color:rgb(0, 0, 0)"></i>
+        </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

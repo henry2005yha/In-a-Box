@@ -1,0 +1,64 @@
+body{
+  background-color: #f1f1ea;
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ 
+    font-family: 'Hind Vadodara', sans-serif;
+
+
+}
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  li{
+    list-style: none;
+  }
+
+  footer{
+    
+      margin-top: auto;
+    
+  }
+
+  .buybutton{
+    margin-right: 1dvh;
+    margin-top : 1dvh;
+    background-color: #ffffff00;
+    color: #007bff;
+    width: 100%;
+    
+  }
+
+  .selectbutton{
+    width: 150px;
+    background-color: #ffffff00;
+    color: #007bff;
+
+  }
+  #map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
+  .startbutton{
+    width: 40%;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+   border-color: rgba(0,0,0,0);
+}
+
+.hlink:hover{
+  text-decoration: none;
+}
+
